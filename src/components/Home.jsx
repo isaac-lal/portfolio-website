@@ -1,20 +1,40 @@
 import React from 'react';
 import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
+import { TypeAnimation} from 'react-type-animation';
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='text-xl tracking-widest text-gray-500'>
+          <p className='text-xl sm:text-lg tracking-widest text-gray-500'>
             Welcome, my name is
           </p>
-          <h1 className='py-4 text-gray-400'>
+          <h1 className='sm:text-5xl py-4 text-gray-400'>
             <span className='text-[#00bfff]'>Isaac Lal</span>
           </h1>
-          <h2 className='py-2 text-gray-400'>A Web Developer</h2>
-          <p className='py-4 pb-20 text-gray-300 max-w-[70%] m-auto'>
+          <h2 className='py-2 flex justify-center text-center sm:text-2xl text-3xl pt-4 text-gray-400'>
+            A
+            <TypeAnimation
+              sequence={[
+                'Web Developer',
+                3500,
+                'Coder',
+                3500,
+                'Tech Enthusiast',
+                3500,
+                'Nice Person',
+                3500,
+              ]}
+              wrapper='div'
+              cursor={true}
+              repeat={Infinity}
+              style={{ fontSize: '1em', paddingLeft: '5px' }}
+            />
+          </h2>
+
+          <p className='py-4 pb-20 sm:text-sm text-gray-300 max-w-[70%] m-auto'>
             I'm learning about the technology used to build beautiful, stunning,
             and responsive websites to show to others. I currently specialize in
             front-end visual aspects of the website, while learning about the

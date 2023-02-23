@@ -32,11 +32,11 @@ const Contact = () => {
 
   return (
     <div id='contact' className='w-full lg:h-screen'>
-      <div className='max-w-[1240px] m-auto px-2 py-16 w-full'>
-        <p className='text-xl tracking-widest uppercase text-[#00bfff]'>
+      <div className='max-w-[1240px] flex flex-col justify-center m-auto px-2 py-16 h-full'>
+        <p className='uppercase sm:text-lg text-xl tracking-widest text-[#00bfff]'>
           Contact
         </p>
-        <h2 className='py-4 text-gray-500'>Get In Touch</h2>
+        <h2 className='py-4 sm:text-3xl text-gray-500'>Get In Touch</h2>
         <div className='grid lg:grid-cols-5 gap-8'>
           {/* left */}
           <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-100 rounded-xl p-4 hover:shadow-[#00bfff] ease-in duration-100'>
@@ -49,9 +49,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Isaac Lal</h2>
+                <h2 className='sm:text-3xl py-2'>Isaac Lal</h2>
                 <h3>Front-End Developer</h3>
-                <p className='py-4'>
+                <p className='sm:text-sm py-4'>
                   I am available for communication through email. Just fill out
                   the form to send me an email and we'll talk!
                 </p>

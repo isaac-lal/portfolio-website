@@ -9,7 +9,6 @@ const Footer = () => {
              text-3xl text-gray-400 text-center
              font-bold
              border-t-4 border-gray-500
-             bottom-0
              p-4'
       >
         Created by <span className='text-[#00bfff]'>Isaac Lal</span>, © 2023
