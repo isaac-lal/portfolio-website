@@ -12,10 +12,10 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
-        <p className='uppercase sm:text-lg text-xl tracking-widest text-[#00bfff]'>
+        <p className='text-xl tracking-widest uppercase text-[#00bfff]'>
           Skills
         </p>
-        <h2 className='py-4 sm:text-3xl text-gray-500'>What I Can Do</h2>
+        <h2 className='py-4 text-gray-500'>What I Can Do</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-lg shadow-gray-100 rounded-xl hover:scale-105 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>

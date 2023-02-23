@@ -6,11 +6,11 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
-          <p className='uppercase sm:text-lg text-xl tracking-widest text-[#00bfff]'>
+          <p className='uppercase text-xl tracking-widest text-[#00bfff]'>
             About
           </p>
-          <h2 className='py-4 sm:text-3xl text-gray-500'>Who I Am</h2>
-          <p className='sm:text-sm py-2 text-gray-300'>
+          <h2 className='py-4 text-gray-500'>Who I Am</h2>
+          <p className='py-2 text-gray-300'>
             I was always fascinated with websites ever since I was a kid
             watching videos on youtube.com, searching things up on google.com,
             playing games on multiple websites, and more. I loved how technology
@@ -20,7 +20,7 @@ const About = () => {
             until August 2022.{' '}
           </p>
 
-          <p className='sm:text-sm py-2 text-gray-300'>
+          <p className='py-2 text-gray-300'>
             With the goal of creating my own professional website, I had decided
             to learn about HTML and CSS to start. These two technologies helped
             me to create a very basic website with limited functionality, but
@@ -31,7 +31,7 @@ const About = () => {
             technologies being used to make this website.{' '}
           </p>
 
-          <p className='sm:text-sm py-2 text-gray-300'>
+          <p className='py-2 text-gray-300'>
             In my experience in being a front-end developer, I have loved all
             the technologies that I am using and how it's evolving my creativity
             and making me more efficient overall. I am now mastering my craft in

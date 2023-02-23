@@ -7,12 +7,12 @@ import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full h-screen'>
-      <div className='max-w-[1240px] flex flex-col justify-center mx-auto px-2 py-16 h-full'>
-        <p className='uppercase sm:text-lg text-xl tracking-widest text-[#00bfff]'>
+    <div id='projects' className='w-full'>
+      <div className='max-w-[1240px] mx-auto px-2 py-16'>
+        <p className='text-xl tracking-widest uppercase text-[#00bfff]'>
           Projects
         </p>
-        <h2 className='py-4 sm:text-3xl text-gray-500'>What I've Built</h2>
+        <h2 className='py-4 text-gray-500'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           {/*
           <ProjectItem
