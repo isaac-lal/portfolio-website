@@ -31,8 +31,13 @@ const Contact = () => {
   };
 
   return (
+<<<<<<< HEAD
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] flex flex-col justify-center m-auto px-2 py-16 h-full'>
+=======
+    <div id='contact' className='w-full'>
+      <div className='max-w-[1240px] justify-center m-auto px-2 py-16'>
+>>>>>>> 92a2b0d (changed footer design and icon again)
         <p className='uppercase sm:text-lg text-xl tracking-widest text-[#00bfff]'>
           Contact
         </p>

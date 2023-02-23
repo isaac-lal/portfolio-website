@@ -8,7 +8,11 @@ import ProjectItem from './ProjectItem';
 const Projects = () => {
   return (
     <div id='projects' className='w-full h-screen'>
+<<<<<<< HEAD
       <div className='max-w-[1240px] flex flex-col justify-center mx-auto px-2 py-16 h-full'>
+=======
+      <div className='max-w-[1240px] flex flex-col justify-center mx-auto px-2 py-16'>
+>>>>>>> 92a2b0d (changed footer design and icon again)
         <p className='uppercase sm:text-lg text-xl tracking-widest text-[#00bfff]'>
           Projects
         </p>
