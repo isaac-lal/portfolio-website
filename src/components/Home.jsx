@@ -4,7 +4,7 @@ import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import Fade from 'react-reveal';
 
-const Main = () => {
+const Home = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <Fade top duration={3000} distance='30%'>
@@ -95,4 +95,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default Home;
