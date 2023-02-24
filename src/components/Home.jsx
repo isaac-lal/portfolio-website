@@ -1,46 +1,34 @@
 import React from 'react';
 import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
-import {TypeAnimation} from 'react-type-animation';
+import { TypeAnimation } from 'react-type-animation';
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
       <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
         <div>
-          <p className='tracking-widest text-gray-500'>
-            Welcome, my name is
-          </p>
+          <p className='tracking-widest text-gray-500'>Welcome, my name is</p>
           <h1 className='text-5xl py-4 text-gray-400'>
             <span className='text-[#00bfff]'>Isaac Lal</span>
           </h1>
           <h2 className='py-4 justify-center flex sm:text-2xl text-xl text-gray-400'>
             <TypeAnimation
               sequence={[
-                'Developer',
+                'A Developer',
                 3500,
-                'Coder',
+                'A Coder',
                 3500,
-                'Tech Enthusiast',
+                'A Website Creator',
                 3500,
-                'Tech Fanatic',
+                'A Tech Enthusiast',
                 3500,
-                'Website Creator',
+                'A Digital Consumer',
                 3500,
-                'App Creator',
+                'A Nerd',
                 3500,
-                'Very Lazy',
+                'A Nice Person',
                 3500,
-                'Nice Person',
-                3500,
-                'Nerd',
-                3500,
-                'One Piece Fan...',
-                3500,
-                'Human.',
-                3500,
-                'The End.',
-                1000,
               ]}
               wrapper='div'
               cursor={true}
