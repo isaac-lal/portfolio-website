@@ -6,7 +6,7 @@ const Footer = () => {
       <div
         className='
         sticky
-             text-3xl text-gray-400 text-center
+             text-xl sm:text-2xl text-gray-400 text-center
              font-bold
              border-t-4 border-gray-500
              bottom-0

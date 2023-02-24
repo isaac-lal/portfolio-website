@@ -9,10 +9,10 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full lg:h-screen flex items-center'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <p className='text-xl tracking-widest uppercase text-[#00bfff]'>
+        <p className='uppercase text-base sm:text-lg tracking-widest text-[#00bfff]'>
           Projects
         </p>
-        <h2 className='py-4 text-gray-500'>What I've Built</h2>
+        <h2 className='py-2 sm:py-4 text-2xl sm:text-3xl text-gray-500'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
           {/*
           <ProjectItem

@@ -105,7 +105,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='border-b-4 border-gray-500 my-4'>
-              <p className='w-[85%] md:w-[90%] py-4 text-gray-400'>
+              <p className='text-sm sm:text-base w-[85%] md:w-[90%] py-4 text-gray-400'>
                 Welcome to my website!
               </p>
             </div>
@@ -115,7 +115,7 @@ const Navbar = () => {
               <a href='/#home'>
                 <li
                   onClick={() => setNav(false)}
-                  className='py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                  className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-0.3 border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
                 >
                   Home
                 </li>
@@ -123,7 +123,7 @@ const Navbar = () => {
               <a href='/#about'>
                 <li
                   onClick={() => setNav(false)}
-                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                  className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
                 >
                   About
                 </li>
@@ -131,7 +131,7 @@ const Navbar = () => {
               <a href='/#skills'>
                 <li
                   onClick={() => setNav(false)}
-                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                  className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
                 >
                   Skills
                 </li>
@@ -139,7 +139,7 @@ const Navbar = () => {
               <a href='/#projects'>
                 <li
                   onClick={() => setNav(false)}
-                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                  className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
                 >
                   Projects
                 </li>
@@ -147,17 +147,17 @@ const Navbar = () => {
               <a href='/#contact'>
                 <li
                   onClick={() => setNav(false)}
-                  className='py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
+                  className='py-2 sm:py-4 text-sm uppercase hover:border-b-2 transition-all border-[#00bfff] hover:text-[#00bfff] ease-in duration-100'
                 >
                   Contact
                 </li>
               </a>
             </ul>
-            <div className='pt-40'>
-              <p className='uppercase tracking-widest text-[#00bfff]'>
+            <div className='pt-10 sm:pt-40'>
+              <p className='text-sm sm:text-base uppercase tracking-widest text-[#00bfff]'>
                 Let's Connect
               </p>
-              <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
+              <div className='text-base sm:text-lg flex items-center justify-between my-4 w-full sm:w-[80%]'>
                 <a
                   href='https://www.linkedin.com/in/isaac-lal/'
                   target='_blank'
