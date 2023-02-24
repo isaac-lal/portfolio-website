@@ -4,8 +4,8 @@ import CSS_IMG from '../../src/assets/skills/css.png';
 import JavaScript_IMG from '../../src/assets/skills/javascript.png';
 import React_IMG from '../../src/assets/skills/react.png';
 import Tailwind_IMG from '../../src/assets/skills/tailwind.png';
-import MongoDB_IMG from '../../src/assets/skills/mongo.png';
-import Nodejs_IMG from '../../src/assets/skills/node.png';
+import Vite_IMG from '../../src/assets/skills/vite.png';
+import Nextjs_IMG from '../../src/assets/skills/nextjs.png';
 import Firebase_IMG from '../../src/assets/skills/firebase.png';
 import Zoom from 'react-reveal/Zoom';
 
@@ -116,20 +116,15 @@ const Skills = () => {
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <a
-                    href='https://www.mongodb.com/'
+                    href='https://vitejs.dev/'
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img
-                      src={MongoDB_IMG}
-                      width='64'
-                      height='64'
-                      alt='MongoDB'
-                    />
+                    <img src={Vite_IMG} width='64' height='64' alt='Vite' />
                   </a>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>MongoDB</h3>
+                  <h3>Vite</h3>
                 </div>
               </div>
             </div>
@@ -137,20 +132,20 @@ const Skills = () => {
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <a
-                    href='https://nodejs.org/en/'
+                    href='https://nextjs.org/'
                     target='_blank'
                     rel='noreferrer'
                   >
                     <img
-                      src={Nodejs_IMG}
+                      src={Nextjs_IMG}
                       width='64'
                       height='64'
-                      alt='Node.js'
+                      alt='Next.js'
                     />
                   </a>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>Node.js</h3>
+                  <h3>Next.js</h3>
                 </div>
               </div>
             </div>

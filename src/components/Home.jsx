@@ -41,11 +41,11 @@ const Main = () => {
               />
             </h2>
             <p className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 text-gray-300 max-w-[70%] m-auto'>
-              I'm learning about the technology used to build beautiful,
+              I'm learning about the technologies used to build beautiful,
               stunning, and responsive websites to show to others. I currently
-              specialize in front-end visual aspects of the website, while
-              learning about the back-end aspect of what goes on behind the
-              scenes.
+              specialize in front-end visual aspects of the website, and I am
+              continuing to learn more tools to master my understanding in the
+              art of designing a website.
             </p>
             <p className='text-sm sm:text-base uppercase tracking-widest text-[#00bfff]'>
               Let's Connect

@@ -26,22 +26,28 @@ const About = () => {
 
             <p className='text-sm sm:text-base py-2 text-gray-300'>
               With the goal of creating my own professional website, I had
-              decided to learn about HTML and CSS to start. These two
-              technologies helped me to create a very basic website with limited
-              functionality, but still looked decent. After that, I have devoted
-              most of my time in mastering JavaScript and learning about Data
-              Structures & Algorithms. After JavaScript was done, I am now using
-              my time to learn the ins and outs of React and Tailwind CSS, which
-              are the technologies being used to make this website.{' '}
+              decided to learn about{' '}
+              <span className='text-[#00bfff]'>HTML and CSS</span> to start.
+              These two technologies helped me to create a very basic website
+              with limited functionality, but still looked decent. After that, I
+              have devoted most of my time in mastering{' '}
+              <span className='text-[#00bfff]'>JavaScript</span> and concepts
+              like if-statements, for-loops, logic, and transitioning into
+              learning about Data Structures & Algorithms, along with the
+              Document Object Model (DOM). After JavaScript was done, I am now
+              using my time to learn everything about{' '}
+              <span className='text-[#00bfff]'>React</span> and styling with{' '}
+              <span className='text-[#00bfff]'>Tailwind CSS</span>.{' '}
             </p>
 
             <p className='text-sm sm:text-base py-2 text-gray-300'>
-              In my experience in being a front-end developer, I have loved all
-              the technologies that I am using and how it's evolving my
-              creativity and making me more efficient overall. I am now
-              mastering my craft in front-end development and I am slowly going
-              to dabble in the back-end to try to become a full-stack developer.
-              But for now, I am loving Web Development and it really helps me to
+              In my experience being a front-end developer, I have loved all the
+              technologies that I am using and how it's evolving my creativity
+              and making me more efficient overall and unlocking my designing
+              potential. I am now mastering my craft in front-end development by
+              learning <span className='text-[#00bfff]'>Next.js</span> and other
+              tools that will speed up the production of design. I definitely am
+              loving the process of Web Development and it really helps me to
               appreciate the product that I create in the end.
             </p>
           </div>
