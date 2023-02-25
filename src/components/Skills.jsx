@@ -5,7 +5,10 @@ import JavaScript_IMG from '../../src/assets/skills/javascript.png';
 import React_IMG from '../../src/assets/skills/react.png';
 import Tailwind_IMG from '../../src/assets/skills/tailwind.png';
 import Vite_IMG from '../../src/assets/skills/vite.png';
+import MongoDB_IMG from '../../src/assets/skills/mongo.png';
 import Nextjs_IMG from '../../src/assets/skills/nextjs.png';
+import Nodejs_IMG from '../../src/assets/skills/node.png';
+import TypeScript_IMG from '../../src/assets/skills/typescript.png';
 import Firebase_IMG from '../../src/assets/skills/firebase.png';
 import Zoom from 'react-reveal/Zoom';
 
@@ -153,20 +156,20 @@ const Skills = () => {
               <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                 <div className='m-auto'>
                   <a
-                    href='https://firebase.google.com/?gclid=Cj0KCQiAutyfBhCMARIsAMgcRJQJgNK1NyUb_C2Kq849DDx0Sa4jhjFDFGnXM0ywnqhGGFDtNQKSqtUaAiYdEALw_wcB&gclsrc=aw.ds'
+                    href='https://www.typescriptlang.org/'
                     target='_blank'
                     rel='noreferrer'
                   >
                     <img
-                      src={Firebase_IMG}
+                      src={TypeScript_IMG}
                       width='64'
                       height='64'
-                      alt='Firebase'
+                      alt='TypeScript'
                     />
                   </a>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
-                  <h3>Firebase</h3>
+                  <h3>TypeScript</h3>
                 </div>
               </div>
             </div>
