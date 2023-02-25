@@ -12,7 +12,7 @@ const Footer = () => {
              bottom-0
              p-4'
       >
-        Created by <span className='text-[#00bfff]'>Isaac Lal</span>, © 2023
+        © 2023 Isaac Lal
       </div>
     </div>
   );
