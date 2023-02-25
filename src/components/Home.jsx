@@ -40,7 +40,7 @@ const Home = () => {
                 style={{ fontSize: '2em' }}
               />
             </h2>
-            <p className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 text-gray-300 max-w-[70%] m-auto'>
+            <p className='text-sm sm:text-base py-2 sm:py-4 pb-10 sm:pb-20 text-gray-300 sm:max-w-[70%] m-auto'>
               I'm learning about the technologies used to build beautiful,
               stunning, and responsive websites to show to others. I currently
               specialize in front-end visual aspects of the website, and I am
