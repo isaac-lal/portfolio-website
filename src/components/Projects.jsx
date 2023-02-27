@@ -3,7 +3,6 @@ import weatherImg from '../../src/assets/projects/weather.jpg';
 import netflixImg from '../../src/assets/projects/netflix.jpg';
 import twitchImg from '../../src/assets/projects/twitch.jpg';
 import spotifyImg from '../../src/assets/projects/spotify.jpg';
-import calculatorImg from '../src/assets/projects/calculator.jpg';
 import ProjectItem from './ProjectItem';
 import Roll from 'react-reveal/Roll';
 
