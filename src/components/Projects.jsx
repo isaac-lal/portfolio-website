@@ -2,7 +2,8 @@ import React from 'react';
 import weatherImg from '../../src/assets/projects/weather.jpg';
 import netflixImg from '../../src/assets/projects/netflix.jpg';
 import twitchImg from '../../src/assets/projects/twitch.jpg';
-import calculatorImg from '../../src/assets/projects/calculator.jpg';
+import spotifyImg from '../../src/assets/projects/spotify.jpg';
+import calculatorImg from '../src/assets/projects/calculator.jpg';
 import ProjectItem from './ProjectItem';
 import Roll from 'react-reveal/Roll';
 
@@ -43,11 +44,8 @@ const Projects = () => {
 
             <ProjectItem title='Netflix Clone' backgroundImg={netflixImg} />
             <ProjectItem title='Twitch Clone' backgroundImg={twitchImg} />
+            <ProjectItem title='Spotify Clone' backgroundImg={spotifyImg} />
             <ProjectItem title='Weather App' backgroundImg={weatherImg} />
-            <ProjectItem
-              title='Basic Calculator'
-              backgroundImg={calculatorImg}
-            />
           </div>
         </div>
       </Roll>
