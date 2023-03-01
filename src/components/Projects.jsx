@@ -1,5 +1,5 @@
 import React from 'react';
-import weatherImg from '../../src/assets/projects/weather.jpg';
+import youtubeImg from '../../src/assets/projects/youtube.jpg';
 import netflixImg from '../../src/assets/projects/netflix.jpg';
 import twitchImg from '../../src/assets/projects/twitch.jpg';
 import spotifyImg from '../../src/assets/projects/spotify.jpg';
@@ -18,33 +18,10 @@ const Projects = () => {
             What I've Built
           </h2>
           <div className='grid md:grid-cols-2 gap-8'>
-            {/*
-          <ProjectItem
-            title='Netflix Clone'
-            backgroundImg={netflixImg}
-            projectUrl='/netflix'
-          />
-          <ProjectItem
-            title='Twitch Clone'
-            backgroundImg={twitchImg}
-            projectUrl='/twitch'
-          />
-          <ProjectItem
-            title='Weather App'
-            backgroundImg={weatherImg}
-            projectUrl='/weather'
-          />
-          <ProjectItem
-            title='Basic Calculator'
-            backgroundImg={calculatorImg}
-            projectUrl='/calculator'
-          />
-          */}
-
             <ProjectItem title='Netflix Clone' backgroundImg={netflixImg} />
             <ProjectItem title='Twitch Clone' backgroundImg={twitchImg} />
             <ProjectItem title='Spotify Clone' backgroundImg={spotifyImg} />
-            <ProjectItem title='Weather App' backgroundImg={weatherImg} />
+            <ProjectItem title='YouTube Clone' backgroundImg={youtubeImg} />
           </div>
         </div>
       </Roll>
