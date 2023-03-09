@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectItem = ({ title, backgroundImg }) => {
+const ProjectItem = ({ title, backgroundImg, demoURL, codeURL }) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl p-4 group hover:shadow-[#00bfff] hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-100'>
       <img
@@ -13,12 +13,12 @@ const ProjectItem = ({ title, backgroundImg }) => {
           {title}
         </h2>
         <div className='grid md:grid-cols-2 gap-4 sm:gap-8'>
-          <a href='/'>
+          <a href={demoURL}>
             <p className='text-center py-3 rounded-3xl bg-[#cccccc] text-gray-800 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
               Demo
             </p>
           </a>
-          <a href='/'>
+          <a href={codeURL}>
             <p className='text-center py-3 rounded-3xl bg-[#cccccc] text-gray-800 font-bond sm:text-lg cursor-pointer hover:bg-[#00bfff] ease-in duration-200'>
               Code
             </p>

@@ -4,6 +4,7 @@ import netflixImg from '../../src/assets/projects/netflix.jpg';
 import twitchImg from '../../src/assets/projects/twitch.jpg';
 import spotifyImg from '../../src/assets/projects/spotify.jpg';
 import ProjectItem from './ProjectItem';
+
 import Roll from 'react-reveal/Roll';
 
 const Projects = () => {
@@ -18,10 +19,30 @@ const Projects = () => {
             What I've Built
           </h2>
           <div className='grid md:grid-cols-2 gap-8'>
-            <ProjectItem title='Netflix Clone' backgroundImg={netflixImg} />
-            <ProjectItem title='Twitch Clone' backgroundImg={twitchImg} />
-            <ProjectItem title='Spotify Clone' backgroundImg={spotifyImg} />
-            <ProjectItem title='YouTube Clone' backgroundImg={youtubeImg} />
+            <ProjectItem
+              title='Netflix Clone'
+              backgroundImg={netflixImg}
+              demoURL='https://netflix-clone.isaaclal.com/'
+              codeURL='https://github.com/isaac-lal/netflix-clone'
+            />
+            <ProjectItem
+              title='Twitch Clone'
+              backgroundImg={twitchImg}
+              demoURL='https://twitch-clone.isaaclal.com/'
+              codeURL='https://github.com/isaac-lal/twitch-clone'
+            />
+            <ProjectItem
+              title='Spotify Clone'
+              backgroundImg={spotifyImg}
+              demoURL='https://spotify-clone.isaaclal.com/'
+              codeURL='https://github.com/isaac-lal/spotify-clone'
+            />
+            <ProjectItem
+              title='YouTube Clone'
+              backgroundImg={youtubeImg}
+              demoURL='https://youtube-clone.isaaclal.com/'
+              codeURL='https://github.com/isaac-lal/youtube-clone'
+            />
           </div>
         </div>
       </Roll>
