@@ -46,7 +46,7 @@ const Contact = () => {
             <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-100 rounded-xl p-4 hover:shadow-[#00bfff] ease-in duration-100'>
               <div className='lg:p-4 h-full'>
                 <div>
-                  <img
+                  <LazyLoadImage
                     className='rounded-xl ease-in duration-300'
                     src={ContactImg}
                     alt='/'

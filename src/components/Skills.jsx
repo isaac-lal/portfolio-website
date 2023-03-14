@@ -10,6 +10,7 @@ import Nextjs_IMG from '../../src/assets/skills/nextjs.png';
 import Nodejs_IMG from '../../src/assets/skills/node.png';
 import TypeScript_IMG from '../../src/assets/skills/typescript.png';
 import Firebase_IMG from '../../src/assets/skills/firebase.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Zoom from 'react-reveal/Zoom';
 
 const Skills = () => {
@@ -33,7 +34,12 @@ const Skills = () => {
                     rel='noreferrer'
                   >
                     {' '}
-                    <img src={HTML_IMG} width='64' height='64' alt='HTML' />
+                    <LazyLoadImage
+                      src={HTML_IMG}
+                      width='64'
+                      height='64'
+                      alt='HTML'
+                    />
                   </a>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
@@ -49,7 +55,12 @@ const Skills = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img src={CSS_IMG} width='64' height='64' alt='CSS' />
+                    <LazyLoadImage
+                      src={CSS_IMG}
+                      width='64'
+                      height='64'
+                      alt='CSS'
+                    />
                   </a>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
@@ -65,7 +76,7 @@ const Skills = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img
+                    <LazyLoadImage
                       src={JavaScript_IMG}
                       width='64'
                       height='64'
@@ -86,7 +97,12 @@ const Skills = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img src={React_IMG} width='64' height='64' alt='React' />
+                    <LazyLoadImage
+                      src={React_IMG}
+                      width='64'
+                      height='64'
+                      alt='React'
+                    />
                   </a>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
@@ -102,7 +118,7 @@ const Skills = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img
+                    <LazyLoadImage
                       src={Tailwind_IMG}
                       width='64'
                       height='64'
@@ -123,7 +139,12 @@ const Skills = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img src={Vite_IMG} width='64' height='64' alt='Vite' />
+                    <LazyLoadImage
+                      src={Vite_IMG}
+                      width='64'
+                      height='64'
+                      alt='Vite'
+                    />
                   </a>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
@@ -139,7 +160,7 @@ const Skills = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img
+                    <LazyLoadImage
                       src={Nextjs_IMG}
                       width='64'
                       height='64'
@@ -160,7 +181,7 @@ const Skills = () => {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    <img
+                    <LazyLoadImage
                       src={TypeScript_IMG}
                       width='64'
                       height='64'

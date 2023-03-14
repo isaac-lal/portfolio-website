@@ -1,6 +1,7 @@
 import React from 'react';
 import AboutImg from '../../src/assets/general/about.jpeg';
 import Slide from 'react-reveal';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const About = () => {
   return (
@@ -52,7 +53,7 @@ const About = () => {
             </p>
           </div>
           <div className='w-full h-auto m-auto shadow-xl shadow-gray-100 rounded-xl flex items-center justify-center p-4 hover:scale-105 hover:shadow-[#00bfff] hover:text-[#00bfff] ease-in duration-300'>
-            <img src={AboutImg} className='rounded-xl' alt='/' />
+            <LazyLoadImage src={AboutImg} className='rounded-xl' alt='/' />
           </div>
         </div>
       </Slide>
