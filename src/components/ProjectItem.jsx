@@ -1,9 +1,10 @@
 import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ProjectItem = ({ title, backgroundImg, demoURL, codeURL }) => {
   return (
     <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-100 rounded-xl p-4 group hover:shadow-[#00bfff] hover:scale-105 hover:bg-gradient-to-r from-[#5651e5] to-[#709dff] ease-in duration-100'>
-      <img
+      <LazyLoadImage
         className='rounded-xl group-hover:opacity-10'
         src={backgroundImg}
         alt='/'

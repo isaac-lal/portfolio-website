@@ -5,6 +5,7 @@ import { AiOutlineMail, AiOutlineInstagram } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import { LightSpeed } from 'react-reveal';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Contact = () => {
   const form = useRef();

@@ -7,6 +7,7 @@ import {
 } from 'react-icons/ai';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import Logo from '../../src/assets/general/logo.png';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -40,7 +41,7 @@ const Navbar = () => {
           href='https://github.com/isaac-lal/portfolio-website'
           target='_blank'
         >
-          <img src={Logo} alt='/' width='125' height='100' />
+          <LazyLoadImage src={Logo} alt='/' width='125' height='100' />
         </a>
         <div>
           <ul className='hidden md:flex'>
@@ -95,7 +96,7 @@ const Navbar = () => {
                 href='https://github.com/isaac-lal/portfolio-website'
                 target='_blank'
               >
-                <img src={Logo} width='100' height='75' alt='/' />
+                <LazyLoadImage src={Logo} width='100' height='75' alt='/' />
               </a>
               <div
                 onClick={handleNav}
